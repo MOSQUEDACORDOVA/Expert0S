@@ -57,3 +57,25 @@ html,body{
   position: absolute;
   left: -54%;
 }
+.mis-msjs .msj,.mis-msjs .primer-msj{
+  margin-bottom: 0.5vw;
+}
+.zona-msj .mis-msjs img,.zona-msj .tus-msjs img{
+  margin-bottom: 0.5vw;
+  width: 16vw;
+}
+.tus-msjs div{
+  margin-bottom: 0.5vw;
+}
+.msj,.btn{
+  border-radius: 10vw;
+}
+.mis-msjs .primer-msj{
+  border-radius: 0px 10vw 10vw 10vw;
+}
+.tus-msjs .primer-msj{
+  border-radius: 10vw 0vw 10vw 10vw;
+}
+.pie{
+  margin-bottom: auto;
+}

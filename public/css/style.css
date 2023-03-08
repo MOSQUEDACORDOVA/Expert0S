@@ -31,7 +31,7 @@ html,body{
 .menu-principal{
   width: 36vw;
   position: fixed;
-  left: 38vw;
+  left: 32vw;
   display: flex;
   justify-content:space-between;
   bottom: 4vw;
@@ -73,11 +73,11 @@ html,body{
   display: inline-block;
   background: #181831;
   max-width: 90vw;
-  margin-bottom: 0.5vw;
+  margin-bottom: 1vw;
   padding: 2vw 4vw;
 }
 .mis-msjs .primer-msj{
-  border-radius: 0px 10vw 10vw 10vw;
+  border-radius: 0px 5vw 5vw 5vw;
 }
 .tus-msjs{
   margin: 2vw 0;
@@ -87,23 +87,23 @@ html,body{
   display: inline-block;
   background: #4D4D6F;
   max-width: 90%;
-  margin-bottom: 0.5vw;
+  margin-bottom: 1vw;
   padding: 2vw 4vw;
   text-align: right;
 }
 .tus-msjs .primer-msj{
-  border-radius: 10vw 0vw 10vw 10vw;
+  border-radius: 5vw 0vw 5vw 5vw;
 }
 .msj,.btn{
-  border-radius: 10vw;
+  border-radius: 5vw;
 }
 .msj a{
   font-weight: bold;
   color: #36BABF;
 }
 .zona-msj .mis-msjs img,.zona-msj .tus-msjs img{
-  margin-bottom: 0.5vw;
-  width: 16vw;
+  margin-bottom: 1vw;
+  width: 32vw;
 }
 .btn{
   display: block;
@@ -117,6 +117,7 @@ html,body{
 .pie{
   margin-top: 10vw;
   text-align: center;
+  margin-bottom: 20vw;
 }
 .pie img{
   border: 1vw solid #181831;
