@@ -1,3 +1,6 @@
+html,body{
+  font-size:4vh;
+}
 .zona-principal{
   display: flex;
 }
@@ -12,10 +15,10 @@
 }
 .menu-principal{
   width: 6vw;
-  position: fixed;
   left: auto;
   right: 1vw;
   display: block;
+  bottom: auto;
 }
 .menu-principal a{
   background-color: rgba(170, 170, 195, 0.1);
@@ -24,4 +27,11 @@
   display: flex;
   border-radius: 100%;
   margin-bottom: 1vw;
+}
+.menu-principal svg{
+  width:6vw;
+  height:6vw;
+}
+.zona-msj{
+  width: 78vw;
 }
