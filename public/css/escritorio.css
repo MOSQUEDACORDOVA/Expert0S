@@ -63,6 +63,7 @@ html,body{
 .zona-msj .mis-msjs img,.zona-msj .tus-msjs img{
   margin-bottom: 0.5vw;
   width: 16vw;
+  border-radius: 1vw;
 }
 .tus-msjs div{
   margin-bottom: 0.5vw;
