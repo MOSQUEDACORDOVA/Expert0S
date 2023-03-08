@@ -35,3 +35,25 @@ html,body{
 .zona-msj{
   width: 78vw;
 }
+.mis-msjs .msj,.mis-msjs .primer-msj{
+  display: inline-block;
+  background: #181831;
+  max-width: 90%;
+  margin-bottom: 0.5vw;
+  padding: 2vw 4vw;
+}
+
+.zona-msj .ejemplos{
+  margin-top: 1vw;
+  width: 100vw;
+  height: 40vw;
+  position: relative;
+  overflow: hidden;
+  margin-left: -1vw;
+  margin-left: -14vw;
+}
+.zona-msj .ejemplos img{
+  height: 100%;
+  position: absolute;
+  left: -54%;
+}

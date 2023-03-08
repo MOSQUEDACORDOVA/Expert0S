@@ -35,6 +35,7 @@ html,body{
   display: flex;
   justify-content:space-between;
   bottom: 4vw;
+  z-index: 999;
 }
 .menu-principal a{
   background-color: rgba(170, 170, 195, 0.1);
@@ -52,10 +53,18 @@ html,body{
   width: 98vw;
   color:#AAAAC3;
 }
-.zona-msj > img{
+.zona-msj .ejemplos{
   margin-top: 1vw;
-  margin-left: -68vw;
-  height: 40vw;
+  width: 100vw;
+  height: 60vw;
+  position: relative;
+  overflow: hidden;
+  margin-left: -1vw;
+}
+.zona-msj .ejemplos img{
+  height: 100%;
+  position: absolute;
+  left: -82%;
 }
 .zona-msj b{
   color: #fff;
@@ -63,7 +72,7 @@ html,body{
 .mis-msjs .msj,.mis-msjs .primer-msj{
   display: inline-block;
   background: #181831;
-  max-width: 90%;
+  max-width: 90vw;
   margin-bottom: 0.5vw;
   padding: 2vw 4vw;
 }
@@ -92,7 +101,7 @@ html,body{
   font-weight: bold;
   color: #36BABF;
 }
-.zona-msj div img{
+.zona-msj .mis-msjs img,.zona-msj .tus-msjs img{
   margin-bottom: 0.5vw;
   width: 16vw;
 }
