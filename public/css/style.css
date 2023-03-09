@@ -122,5 +122,5 @@ html,body{
 }
 .pie img{
   border: 1vw solid #181831;
-  border-radius: 100%;
+  border-radius: 100% !important;
 }
