@@ -12,6 +12,23 @@ html,body{
     padding: 1vw;
     overflow-x: hidden;
   }
+h1,h2{
+  text-align: center;
+  margin: 0;
+}
+h1{
+  font-size: 40vw;
+  line-height: 28vw;
+}
+h2{
+  font-weight: 500;
+  letter-spacing: 6vw;
+  color: #fff;
+  margin-top: 2vh;
+}
+.none{
+  display: none !important;
+}
 .background{
     background-image: url(../img/backws.webp);
     opacity: 0.07;
@@ -33,7 +50,7 @@ html,body{
   position: fixed;
   left: 32vw;
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
   bottom: 4vw;
   z-index: 999;
 }
@@ -54,12 +71,12 @@ html,body{
   color:#AAAAC3;
 }
 .zona-msj .ejemplos{
-  margin-top: 1vw;
+  margin: 8vw 0 8vw -1vw;
   width: 100vw;
   height: 60vw;
   position: relative;
   overflow: hidden;
-  margin-left: -1vw;
+
 }
 .zona-msj .ejemplos img{
   height: 100%;
