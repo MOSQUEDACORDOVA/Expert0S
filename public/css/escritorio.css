@@ -4,6 +4,7 @@ html,body{
 h1{
   font-size: 30vw;
   line-height: 21vw;
+  margin-top: 0vh;
 }
 h2{
   font-weight: 500;

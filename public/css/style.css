@@ -19,6 +19,7 @@ h1,h2{
 h1{
   font-size: 40vw;
   line-height: 28vw;
+    margin-top: 4vh;
 }
 h2{
   font-weight: 500;
